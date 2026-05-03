@@ -30,7 +30,7 @@ function App() {
 
     try {
       // 2. Send the payload to your Spring Boot Backend
-      const response = await fetch('http://localhost:8081/api/chat', {
+      const response = await fetch('https://hani2384-election-java-backend.hf.space/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
